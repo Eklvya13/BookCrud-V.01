@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 85
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 90
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 88
+    },
+    {
+      "id": 4,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 82
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 87
+    },
+    {
+      "id": 6,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 84
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 92
+    },
+    {
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 89
+    },
+    {
+      "id": 9,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 86
+    },
+    {
+      "id": 10,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 83
+    },
+    {
+      "id": 11,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 91
+    },
+    {
+      "id": 12,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 88
+    },
+    {
+      "id": 13,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 85
+    },
+    {
+      "id": 14,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 87
+    },
+    {
+      "id": 15,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 89
+    },
+    {
+      "id": 16,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 86
+    },
+    {
+      "id": 17,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 84
+    },
+    {
+      "id": 18,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 90
+    },
+    {
+      "id": 19,
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 87
+    },
+    {
+      "id": 20,
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "coverSrc": "https://dummyimage.com/200x300",
+      "rating": 88
+    }
+  ]
+  
