@@ -1,0 +1,16 @@
+{
+  "name": "bookcrud",
+  "version": "1.0.0",
+  "description": "test commit 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run",
+    "test": "nodemon run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
+  }
+}
