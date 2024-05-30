@@ -133,11 +133,10 @@
     "rating": 87
   },
   {
-    "id": 20,
-    "title": "The Fault in Our Stars",
-    "author": "min",
-    "coverSrc": "https://dummyimage.com/200x300",
-    "rating": 88,
-    "name": "kill"
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "rating": "95",
+    "coverSrc": "google.com",
+    "id": 20
   }
 ]

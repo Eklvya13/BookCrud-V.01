@@ -1,19 +1,26 @@
 const express = require('express')
 const router = express.Router()
 
-const { updateBook, deleteBook, insertBook, searchBooks } = require('../data/books')
+const { updateBook, deleteBook, insertBook, searchBooks, searchAll } = require('../data/books')
 
 
 router.get('/' ,(req, res) => {
     res.send('api index page');
 });
 
+// needs work on search functionality
 router.get('/search', (req, res) => {
-    res.send("search books form");
-});
-
-router.get('/search', (req, res) => {
-    res.send('search results for a particular book:' + req.params.name)
+    if (!req.params.title) {
+        res.json(searchAll())
+    }
+    else{
+        const resultBooks = searchBooks(req.params.title);
+        if (resultBooks.length < 1){
+            res.send("Not Found!");
+        }else{
+            res.json(resultBooks);
+        }
+    }
 });
 
 router.get('/update', (req, res) => {
@@ -21,7 +28,12 @@ router.get('/update', (req, res) => {
 });
 
 router.put("/update/:id", (req, res) => {
-    res.send('updating element')
+    const modifiedBookObj = req.body
+    if (updateBook(Number(req.params.id), modifiedBookObj)){
+        res.send(`updated element with id: ${req.params.id} .`)
+    }   else{
+        res.send("failed to Update data")
+    }   
 })
 
 router.get("/delete", (req, res) => {
@@ -29,7 +41,11 @@ router.get("/delete", (req, res) => {
 });
 
 router.delete("/delete/:id", (req, res) => {
-    res.send('deleting element')
+    if (deleteBook(Number(req.params.id))){
+        res.send(`Deleted Element with id: ${req.params.id}`);
+    }   else {
+        res.send('Deleteion Failed!');
+    }
 })
 
 router.get('/create', (req, res) => {
@@ -37,7 +53,13 @@ router.get('/create', (req, res) => {
 });
 
 router.post('/create', (req, res) => {
-    res.send('creating element')
+    const newBookObj = req.body;
+    if (insertBook(newBookObj)){
+        res.send('Created and Inserted New Book');
+    }
+    else {
+        res.send("failed to create a new book");
+    }
 })
 
 

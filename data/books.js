@@ -12,9 +12,13 @@ const writeData = (updatedData) => {
 };
 
 const searchBooks = (key) => {
-    const regex = new RegExp(`${key}`, 'i')
-    const queryBooks = booksJson.filter((book) => regex.test(book.name))
+    const regex = new RegExp(`\\b${key}\\b`, 'i'); 
+    const queryBooks = booksJson.filter((book) => regex.test(book.title))
     return queryBooks;
+}
+
+const searchAll = () => {
+    return booksJson;
 }
 
 const insertBook = (newBookObject) => {
@@ -64,5 +68,6 @@ module.exports = {
     updateBook,
     deleteBook,
     insertBook,
-    searchBooks
+    searchBooks,
+    searchAll
 }
